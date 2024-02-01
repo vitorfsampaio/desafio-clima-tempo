@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Carregando a fonte poppins para usar no projeto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Projeto Clima - DevMentor BR</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main>
+    <h1 id="titulo">Clima Tempo</h1>
+    <section class="principal">
+      <div id="pesquisaDiv">
+        <form id="pesquisaForm" action="script.js">
+          <input type="text" name="pesquisa" id="ipesquisa" placeholder="Digite o nome da cidade" required autocomplete="off">
+          <button type="submit" id="botaoPesquisar">Pesquisar</button>
+        </form>
+      </div>
+      <div id="resultado">
+        <!-- <p class="data">31/01/2023</p>
+        <h3 class="cidade">Campo Grande</h3>
+        <h1 class="temp">31°</h1>
+        <p class="status">CÉU LIMPO</p> -->
+      </div>
+    </section>
+  </main>
+
+  <script type="text/javascript" src=script.js></script>
+</body>
+
+</html>
