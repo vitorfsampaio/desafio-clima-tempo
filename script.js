@@ -4,7 +4,7 @@ const resultado = document.querySelector('#resultado')
 
 async function BuscaCidade(pesquisa) {
     try {
-        const cidade = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${pesquisa.value}&limit=5&appid=12493105c51d36dc8befb9f811f0e8f7`)
+        const cidade = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${pesquisa.value}&limit=5&appid=12493105c51d36dc8befb9f811f0e8f7`)
 
         const cidadeConvertida = await cidade.json()
 
