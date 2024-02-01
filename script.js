@@ -43,8 +43,6 @@ async function BuscaCidade(pesquisa) {
     }
 }
 
-//-15.840753323084543, -48.05681176385508
-
 pesquisaForm.addEventListener('submit', (event) => {
     event.preventDefault();
     BuscaCidade(pesquisa)
