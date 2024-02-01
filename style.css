@@ -97,6 +97,12 @@ p.status {
   font-size: 1em;
 }
 
+i{
+  position: sticky;
+  right: 47%;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 620px) {
   h1#titulo {
     font-size: 2.5em;
@@ -109,5 +115,16 @@ p.status {
 
   #pesquisaDiv {
     width: 100vw;
+  }
+
+  input#ipesquisa{
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  i{
+    position: sticky;
+    right: 44%;
   }
 }
